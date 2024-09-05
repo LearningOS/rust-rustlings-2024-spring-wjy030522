@@ -5,6 +5,14 @@
 // I AM NOT DONE
 
 pub fn bigger(a: i32, b: i32) -> i32 {
+    let mut c;
+    if a>b {
+        c=a;
+    }else
+    {
+        c=b;
+    }
+    c
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
